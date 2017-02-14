@@ -1,0 +1,212 @@
+/***** Media Quries For Responsiveness *****/
+@media only screen and (max-width: 1440px) and (min-width: 240px) {
+    .wrap {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .four_images h4 a {
+        font-size: 1.2em;
+    }
+
+    .para {
+        font-size: 13px;
+    }
+
+    .content_right h4 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        text-align: center;
+    }
+
+    .h_search {
+        width: 98%;
+        padding: 20px;
+    }
+
+    .h_menu {
+        position: relative;
+    }
+
+    .soc_icons {
+        position: absolute;
+        top: 0px;
+        background: #3b3b3b;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #FFF;
+    }
+
+    .navbar {
+        min-height: 51px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #3b3b3b;
+    }
+
+    .navbar-default {
+        background-color: #3b3b3b;
+        border: none;
+    }
+
+    .navbar-nav {
+        margin: 0px 0px;
+    }
+
+    .nav > li > a {
+        padding: 20px 15px;
+    }
+
+    .soc_icons ul li a {
+        font-size: 20px;
+        line-height: 50px;
+        width: 51px;
+        height: 51px;
+    }
+
+    .slider_bg {
+        background-size: 100% 100%;
+    }
+
+    .main {
+        padding: 4% 0;
+    }
+
+    .four_images {
+        margin-bottom: 4%;
+    }
+
+    .main {
+        padding: 2%;
+    }
+
+    .technology {
+        padding: 4%;
+    }
+
+    .about {
+        padding: 4%;
+    }
+
+    .social_network_likes li {
+        width: 24.3333%;
+    }
+
+    .tag_nav {
+        margin: 4% 0;
+    }
+
+    .news_letter {
+        margin: 4% 0;
+    }
+
+    .technology h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .company_ad {
+        margin-left: 0;
+    }
+
+    .blog_left h4 a {
+        font-size: 1.2em;
+    }
+
+    .technology h4 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .four_images h4 {
+        margin: 20px 0 10px;
+    }
+
+    .technology h2 {
+        font-size: 2em;
+    }
+
+    .about h2 {
+        font-size: 2em;
+    }
+
+    .company_ad h2 {
+        font-size: 2em;
+    }
+
+    .contact-form h2 {
+        font-size: 2.5em;
+    }
+
+    .blog_left h4 a {
+        font-size: 1em;
+    }
+
+    .blog_list ul li {
+        margin-left: 5px;
+    }
+
+    .blog_list li a {
+        padding: 4px 4px;
+    }
+
+    .detail h2 {
+        font-size: 2em;
+    }
+
+    .img-container {
+        margin-left: 0px !important;
+        margin: 15px 0px 15px 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .main {
+        padding: 8% 2%;
+    }
+
+    .soc_icons ul li a {
+        font-size: 20px;
+        width: 46px;
+    }
+
+    .four_images h4 {
+        margin: 15px 0 10px;
+    }
+
+    .social_network_likes li a p {
+        font-size: 12px;
+    }
+
+    .four_images span {
+        width: 88px;
+        height: 88px;
+    }
+
+        .four_images span i {
+            font-size: 5em;
+            line-height: 1.8em;
+        }
+
+    .four_images h4 a {
+        font-size: 1em;
+    }
+
+    .technology h4 {
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+    .blog_list ul li:nth-child(3) {
+        margin-left: 0;
+    }
+}

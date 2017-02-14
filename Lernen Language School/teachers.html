@@ -1,0 +1,299 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teachers</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!--Slider CSS-->
+    <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.cslider.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $('#da-slider').cslider({
+                autoplay: true,
+                bgincrement: 450
+            });
+
+            function sleep(milliseconds) {
+                var start = new Date().getTime();
+                for (var i = 0; i < 1000000; i++) {
+                    if ((new Date().getTime() - start) > milliseconds) {
+                        break;
+                    }
+                }
+            }
+
+        });
+
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+                items: 3,
+                lazyLoad: true,
+                autoPlay: true,
+                navigation: true,
+                navigationText: ["", ""],
+                rewindNav: false,
+                scrollPerPage: false,
+                pagination: false,
+                paginationNumbers: false,
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class="header_bg">
+        <div class="container">
+            <div class="row header">
+                <div class="logo navbar-left">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="logo" style="width:50%"></a></h1>
+                </div>
+                <div class="h_search navbar-right">
+                    <form>
+                        <input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
+                        <input type="submit" value="search">
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row h_menu">
+            <nav class="navbar navbar-default navbar-left" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li class="active"><a href="teachers.html">Teachers</a></li>
+                                <li><a href="testimonials.html">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="ourservices.html">Our Services</a></li>
+                                <li><a href="business.html">Business Courses</a></li>
+                                <li><a href="beapartner.html">Be A Partner</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="faqs.html">Faqs</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="soc_icons navbar-right">
+                <ul class="list-unstyled text-center">
+                    <li><a target="_blank" href="https://twitter.com/lernenlanguageschool"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/lernenlanguageschool"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://plus.google.com/lernenlanguageschool"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/lernenlanguageschool"><i class="fa fa-youtube"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/lernenlanguageschool"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main_bg">
+        <!-- start main -->
+        <div class="container">
+            <div>
+                <br>
+                <h1>Become a teacher</h1><br>
+                <br>
+                <p class="para">
+                    Lernen language school is the national leading provider of professional
+                    development for German teachers, as well as offering advice on curricula
+                    and teaching materials for practice-oriented learning. We have been
+                    setting standards in teaching German as a foreign language (Deutsch als
+                    Fremdsprache; DaF) and German as a second language (Deutsch als
+                    Zweitsprache; DaZ) for over 60 years. We offer you a comprehensive
+                    programme of professional development for teachers – in your home country,
+                    in Germany or via distance learning. We provide you with up-to-date
+                    material and interactive services. Find out about events held by the
+                    Lernen language school for teachers.
+                </p>
+                <h1>What Is Teaching Foreign Languages Like?</h1>
+                <br>
+                <span class="para">
+                    If you become a language teacher you must be fluent in both English and
+                    your target language.
+                    In addition, you will be required to teach your students about the
+                    culture and history of the countries where the language is spoken.
+                    Whatever language you teach, here are a few duties you can expect as an
+                    elementary or secondary language education teacher:
+                    <ul>
+                        <li>
+                            Handling day-to-day needs, such as preparing lesson plans and
+                            correcting student work
+                        </li>
+                        <li>
+                            Obtaining special language materials and programs for your
+                            classroom
+                        </li>
+                        <li>
+                            Organizing special events related to your language and culture
+                            classes, such as dance performances, cultural displays,
+                            target-language dinners and other events
+                        </li>
+                        <li>
+                            Organizing special events related to your language and culture
+                            classes, such as dance performances, cultural displays,
+                            target-language dinners and other events
+                        </li>
+                        <li>
+                            Planning and attending parent-teacher conferences and
+                            administrative meetings
+                        </li>
+                    </ul>
+                </span>
+                <h1>The Language Classroom</h1>
+                <br>
+                <p class="para">
+                    As a language teacher, you may travel from classroom to classroom, or you
+                    may have your own room, depending on your school or district size. A
+                    growing trend in public and private education today is language immersion
+                    schools, where students attend all or some core classes such as math,
+                    social studies and language arts in another language all year long.
+                </p>
+                <h1>Our teachers</h1>
+                <br>
+                <p class="para">
+                    All our teachers who work with Lernen language school have many
+                    years experience teaching German as a second language. All teachers are
+                    fully accredited by the Department of Education and hold relevant
+                    qualifications. Our teachers are chosen for their ability to teach in a
+                    positive & enthusiastic manner ensuring that students are stimulated &
+                    motivated whilst learning. Our ethos is to make learning an enjoyable
+                    experience. Our teachers use interactive teaching methods
+                    through games, role play, using video, internet & other cultural media to
+                    enhance speaking & listening, with the aim of instilling confidence &
+                    competence in the practice of learning German. Students are expected to
+                    work hard & actively take part in their classes. We remind students of
+                    the positive outcomes of attaining a higher standard of competency in
+                    German such as positive impaction on future employment.
+                    <br>
+                </p>
+                <br>
+                <div>
+                </div>
+            </div>
+            <div id="owl-demo" class="owl-carousel text-center">
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/c1.jpg" alt="c1.jpg" class="lazyOwl" data-src="images/c1.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><b>Gerlinde</b></h4>
+                        <p>
+                            Gerlinde is a German language teacher since 31 years. She is a
+                            native originally coming from Stuttgart, a small city in the
+                            south of Germany. She serves the employees from our business
+                            client as she already worked as a translator for big
+                            multinationals and therefore knows which vocabulary is important
+                            in this sector.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/c2.jpg" alt="c2.jpg" class="lazyOwl" data-src="images/c2.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><b>Sonia</b></a></h4>
+                        <p>
+                            Sonia teaches german language students since 6 years. She is
+                            spanisch but speaks fluently german, english and of course
+                            spanish. She lived in Austria for 4 years, working in an
+                            elementary school. We have a lot of spanish customers which want
+                            to learn German. With Sonia they will have a commited teacher,
+                            serving there needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/c3.jpg" alt="google.jpg" class="lazyOwl" data-src="images/c3.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><b>Martina</b></h4>
+                        <p>
+                            Martina teaches german language students since 6 years. She is a
+                            german native speaker, born in Cologne. She speaks fluently
+                            german, english. She lived her whole life in Cologne working as a
+                            travel guide for english people. As she is always telling: "I
+                            like the Irish the most, they always have something to celebrate
+                            and they seem to be the happiest people I met in my life."
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/c4.jpg" alt="c4.jpg" class="lazyOwl" data-src="images/c4.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><b>Tom</b></h4>
+                        <p>
+                            Tom is our youngest team member. He is managing the reception but
+                            nowadays is also teching german. He is a 26 years old guy from
+                            the east of Swizerland and joined our company a year ago. His
+                            expertise in German helps students to increase their knowledge
+                            about the language.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bg">
+        <!-- start footer -->
+        <div class="container">
+            <div class="row  footer">
+                <div class="copy text-center">
+                    <p class="link"><span>&#169; All rights reserved | Lernen Launguage School | Phone: 014782845 | Email: lernenlanguageschool@gmail.com</a></span></p>
+                    <p><a href="credits.html">Credits</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

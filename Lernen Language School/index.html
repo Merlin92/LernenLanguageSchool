@@ -1,0 +1,289 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!--Slider CSS-->
+    <link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.cslider.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $('#da-slider').cslider({
+                autoplay: true,
+                bgincrement: 450
+            });
+
+        });
+
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+                items: 4,
+                lazyLoad: true,
+                autoPlay: true,
+                navigation: true,
+                navigationText: ["", ""],
+                rewindNav: true,
+                scrollPerPage: false,
+                pagination: false,
+                paginationNumbers: false,
+            });
+
+        });
+    </script>
+    
+    <style>
+        .content_left{
+            padding-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header_bg">
+        <div class="container">
+            <div class="row header">
+                <div class="logo navbar-left">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="logo" style="width:50%"></a></h1>
+                </div>
+                <div class="h_search navbar-right">
+                    <form>
+                        <input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
+                        <input type="submit" value="search">
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row h_menu">
+            <nav class="navbar navbar-default navbar-left" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="teachers.html">Teachers</a></li>
+                                <li><a href="testimonials.html">Testimonials</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="ourservices.html">Our Services</a></li>
+                                <li><a href="business.html">Business Courses</a></li>
+                                <li><a href="beapartner.html">Be A Partner</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="faqs.html">Faqs</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="soc_icons navbar-right">
+                <ul class="list-unstyled text-center">
+                    <li><a target="_blank" href="https://twitter.com/lernenlanguageschool"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/lernenlanguageschool"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://plus.google.com/lernenlanguageschool"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/lernenlanguageschool"><i class="fa fa-youtube"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/lernenlanguageschool"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container slider_bg">
+        <div>
+            <div id="da-slider" class="da-slider text-center">
+            </div>
+        </div>
+    </div>
+    <div class="main_bg">
+        <div class="container">
+            <div class="main row">
+                <div class="col-md-3 four_images text-center">
+                    <div id="image_1_of_4" class="image-container">
+                        <span class="bg"><i class="fa fa-users" aria-hidden="true"></i></span>
+                        <h4>About Us</h4>
+                        <p class="para">We are an Irish-registered language centre providing both group classes and private tuition and our main focus is on German classes for all levels, age groups...</p>
+                        <a href="about.html" class="fa-btn btn-1 btn-1e">read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 four_images bg1 text-center">
+                    <div id="image_2_of_4" class="image-container">
+                        <span class="bg"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                        <h4>Our Services</h4>
+                        <p class="para">Our services include morning and evening group classes, Junior and Leaving Cert preparation as well as Primary school tuition. We also provide courses for...</p>
+                        <a href="ourservices.html" class="fa-btn btn-1 btn-1e">read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 four_images bg1 text-center">
+                    <div id="image_3_of_4" class="image-container">
+                        <span class="bg"><i class="fa fa-history" aria-hidden="true"></i></i></span>
+                        <h4>Testimonial</h4>
+                        <p class="para">View what some of our past students and businesses have said about Lernen and how the school has helped them progress with the German language...</p>
+                        <a href="testimonials.html" class="fa-btn btn-1 btn-1e">read more</a>
+                    </div>
+                </div>
+                <div class="col-md-3 four_images bg1 text-center">
+                    <div id="image_4_of_4" class="image-container">
+                        <span class="bg"><i class="fa fa-cogs" aria-hidden="true"></i> </span>
+                        <h4>Customised Learning</h4>
+                        <p class="para">We create specialised programs for businesses who wish to strengthen their relationship with their german clients. We teach...</p>
+                        <a href="business.html" class="fa-btn btn-1 btn-1e">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_btm">
+        <div class="container">
+            <div class="main row">
+                <div class="col-md-6 content_left">
+                    <div class="embed-responsive-4by3 embed-responsive">
+                        <iframe src="https://www.youtube.com/embed/sFRXZJtMNGk"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 content_right">
+                    <h2>Why learn German?</h2>
+                    <span class="para">
+                        <ul>
+                            <li>German has the largest number of native speakers in the EU</li>
+                            <li>Germany is the worldst second largest exporter</li>
+                            <li>German and English are similar. Many words in German sound and/or look the
+                            same as equivalent English words, because the two languages share the same
+                            “grandparent. For example, look at these words:”</li>
+                            <ul>
+                                <li>Haus = house</li>
+                                <li>Buch = book</li>
+                                <li>Finger = finger</li>
+                            </ul>
+                            <li>Knowing German creates business opportunities.</li>
+                            <li>Gain access to German-speaking cultures, art, music, literature and film.</li>
+                            <li>Germany is home to numerous international corporations</li>
+                        </ul>
+                    </span>
+                    <a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>
+                </div>
+            </div>
+            <div id="owl-demo" class="owl-carousel text-center">
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/Microsoft.jpg" alt="Microsoft.jpg" class="lazyOwl" data-src="images/Microsoft.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><a href="#"><b>Microsoft</b></a></h4>
+                        <p>
+                            We are proud to announce, that Microsoft is our newest business partner.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/IDA.jpg" alt="IDA.jpg" class="lazyOwl" data-src="images/IDA.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><a href="#"><b>IDA Ireland</b></a></h4>
+                        <p>
+                            We are proud to announce, that IDA is our newest business partner.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/google.jpg" alt="google.jpg" class="lazyOwl" data-src="images/google.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><a href="#"><b>Google</b></a></h4>
+                        <p>
+                            We are proud to announce, that Google is our newest business partner.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/facebook.jpg" alt="facebook.jpg" class="lazyOwl" data-src="images/facebook.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><a href="#"><b>Facebook</b></a></h4>
+                        <p>
+                            We are proud to announce, that Facebook is our newest business partner.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/apple.jpg" alt="apple.jpg" class="lazyOwl" data-src="images/apple.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><a href="#"><b>Apple</b></a></h4>
+                        <p>
+                            We are proud to announce, that Apple is our newest business partner.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cau_left">
+                        <img src="images/twitter.jpg" alt="twitter.jpg" class="lazyOwl" data-src="images/twitter.jpg">
+                    </div>
+                    <div class="cau_left">
+                        <h4><a href="#"><b>Twitter</b></a></h4>
+                        <p>
+                            We are proud to announce, that Twitter is our newest business partner.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bg">
+        <div class="container">
+            <div class="row  footer">
+                <div class="copy text-center">
+                    <p class="link"><span>&#169; All rights reserved | Lernen Launguage School | Phone: 014782845 | Email: lernenlanguageschool@gmail.com</a></span></p>
+                    <p><a href="credits.html">Credits</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
